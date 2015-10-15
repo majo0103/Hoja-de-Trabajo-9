@@ -21,19 +21,19 @@ public class WordSetFactory {
 	public static WordSet generateSet(int tipo)
 	{
         
-        if (tipo == 0)
+        if (tipo == 1)
             return new SimpleSet();
         
-        else if (tipo == 1)
+        else if (tipo == 2)
             return new RBTClass();
         
-        else if(tipo ==2)
+        else if(tipo ==3)
             return new SplayTree();
         
-        else if (tipo==3) 
+        else if (tipo==4) 
             return new HashtableClass();
         
-        else if (tipo==4) 
+        else if (tipo==5) 
             return new TreeMapClass();
         
         else 
